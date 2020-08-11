@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="plp.css" />
+    <script src="plp.js"></script>
+    <header id="header">
+      <nav class="topnav" id="nav-bar">
+        <ul>
+          <li><a href="#Contact" class="nav-link">Contact</a></li>
+          <li><a href="#video" class="nav-link">Explore</a> </li>
+          <li><a href="#Collection" class="nav-link">Collection</a></li>
+          <li><a href="#Home" class="nav-link">Home</a></li>
+        </ul>
+        <img
+          id="header-img"
+          src="https://www.involvation.com/wp-content/uploads/rituals-logo.png"
+          alt="rituals-logo"
+          height="96"
+          width="96"
+        />
+      </nav>
+    </header>
+
+    <section class="section-home" id="Home">
+      <div class="container" id="container">
+        <h1>Submit your email</h1>
+        <p>To get special offers:</p>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <p><input class="email" type="email" placeholder="Enter e-mail" id="email" name="email" style="width:60%"></p>
+        <p><input class="submit" type="submit" id="submit" style="width:60%"></p>
+      </form>
+    </div>
+    </section>
+
+    <section class="section-collection" id="Collection">
+      <p><h1>THE RITUAL OF HAMMAM</h1>
+A PURIFYING CEREMONY FOR BODY AND SOUL</p>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <h4>THE RITUAL OF HAMMAM</h4>
+            <h1>Hot Scrub</h1>
+            <h3>bodyscrub, 300 gr</h3>
+    <img src="https://www.rituals.com/dw/image/v2/BBKL_PRD/on/demandware.static/-/Sites-rituals-products/default/dwcc142661/images/grid/1105467_TheRitualofHammamBodyScrubPROGrid.png?sw=252&q=100" alt="img-card1"height="50%" width="60%">
+            <p> <b>€14,90</b> </p>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h4>THE RITUAL OF HAMMAM</h4>
+            <h1>Hair & Body Mist</h1>
+            <h3>haar & body mist, 50 ml</h3>
+            <img src="https://www.rituals.com/dw/image/v2/BBKL_PRD/on/demandware.static/-/Sites-rituals-products/default/dwb1f9e450/images/grid/1101630_TheRitualofHammamHair&BodyMistPROgrid.png?sw=100&q=100" alt="img-card2" height="50%" width="25%">
+            <p> <b>€17,90</b></p>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h4>THE RITUAL OF HAMMAM</h4>
+            <h1>Body Cream</h1>
+            <h3>bodycrème, 220 ml</h3>
+            <img src="https://www.rituals.com/dw/image/v2/BBKL_PRD/on/demandware.static/-/Sites-rituals-products/default/dw769a5236/images/grid/1106400_TheRitualofHammamBodyCreamgrid.png?sw=226&q=100" alt="img-card3"height="50%" width="60%">
+            <p> <b>€18,50</b></p>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h4>THE RITUAL OF HAMMAM</h4>
+            <h1>Scented Candle</h1>
+            <h3>scented candle, 290 gr</h3>
+            <img src="https://www.rituals.com/dw/image/v2/BBKL_PRD/on/demandware.static/-/Sites-rituals-products/default/dw86376a47/images/grid/1101653_TheRitualofHammamScentedCandleBOXPROgrid.png?sw=252&q=100" alt="img-card4"height="50%" width="60%">
+            <p> <b>€19,90</b></p>
+            <button class="btn" id="btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-video" id="Video">
+      <h1>Explore our new Collection </h1>
+      <div class="flexbox" id="flexbox">
+          <iframe id="video" width="1540" height="650" src="https://www.youtube.com/embed/dDUtfM5xu-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section class="footer" id="Contact">
+        <div class="w3-row-padding">
+          <div class="w3-col s4">
+            <h4>Contact</h4>
+            <p>Questions? Go ahead.</p>
+              <p><input id="name" type="text" placeholder="Name" name="Name" required></p>
+              <p><input id="email" type="text" placeholder="Email" name="Email" required></p>
+              <p><input id="subject" type="text" placeholder="Subject" name="Subject" required></p>
+              <p><input id="message" type="text" placeholder="Message" name="Message" required></p>
+              <button  class="button" id="button"> Sent </button>
+          </div>
+          <div class="info">
+            <h4>About</h4>
+            <p><a href="#"></a>About us</a></p>
+            <p><a href="#">We're hiring</a></p>
+            <p><a href="#">Support</a></p>
+            <p><a href="#">Find store</a></p>
+            <p><a href="#">Shipment</a></p>
+            <p><a href="#">Payment</a></p>
+            <p><a href="#">Gift card</a></p>
+            <p><a href="#">Help</a></p>
+          </div>
+    
+          <div class="w3-col s4 w3-justify">
+            <h4>Store</h4>
+            <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
+            <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+            <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
+            <h4>We accept</h4>
+            <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+            <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        </div>
+      </footer>
+       </section>
+  </body>
+</html>
